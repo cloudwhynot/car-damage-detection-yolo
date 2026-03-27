@@ -1,0 +1,19 @@
+# Base path to the processed dataset
+path: ./data/processed
+
+# Relative paths to the image directories for each split
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 6
+
+# Class names mapping
+names:
+  0: damage
+  1: headlamp
+  2: rear_bumper
+  3: door
+  4: hood
+  5: front_bumper
