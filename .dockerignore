@@ -1,0 +1,22 @@
+# Exclude local environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Exclude git and docs
+.git/
+.gitignore
+README.md
+LICENSE
+assets/
+
+# Exclude heavy data and models
+data/
+models/*.pt
+models/*.onnx
+runs/
+
+# Exclude system files
+.DS_Store
+.vscode/
