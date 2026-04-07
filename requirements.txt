@@ -1,0 +1,10 @@
+ultralytics==8.4.34
+gradio==6.11.0
+opencv-python-headless==4.13.0.92
+fpdf==1.7.2
+numpy==2.4.4
+gdown==5.2.1
+kagglehub==1.0.0
+requests==2.33.1
+torch==2.11.0
+torchvision==0.26.0
